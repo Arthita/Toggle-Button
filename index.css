@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+button{
+    text-align: center;
+    border: 2px solid red;
+    background-color: rgb(255, 236, 202);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 1s;
+}
